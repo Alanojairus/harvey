@@ -294,10 +294,10 @@ function showOverlay(icon, headline, message) {
 document.addEventListener("submit", function (e) {
   if (e.target.name === "date-responses") {
     const resp = e.target.querySelector('[name="response"]').value;
-    if (resp.startsWith("YES")) {
-      showOverlay('😔', 'okay.', 'see you soon... i mean it.');
+    if (resp.startsWith("MERON")) {
+      showOverlay('😘', '\NAKS NAPAKA BAIT NIYO TALAGA.');
     } else {
-      showOverlay('🌧️', 'i understand.', 'maybe some other time.');
+      showOverlay('😭', 'ARAY KO.');
     }
   }
 });
